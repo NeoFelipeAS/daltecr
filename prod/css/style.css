@@ -518,6 +518,14 @@ ol {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-image: url(../img/hero-bg.jpg);
+}
+
+@media only screen and (max-width: 767px) {
+  .hero {
+    background-image: url(../mob.jpg);
+    background-position: center; /* Center the image */
+  }
 }
 
 .hero__text h5 {
